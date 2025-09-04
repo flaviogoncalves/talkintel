@@ -1,5 +1,5 @@
 import React from 'react';
-import { BarChart3, Activity, Sparkles, LogOut, Users, Heart, DollarSign, TrendingUp, User, Settings } from 'lucide-react';
+import { BarChart3, Activity, Sparkles, LogOut, Users, Heart, DollarSign, TrendingUp, User, Settings, ChevronDown } from 'lucide-react';
 import { useAuth } from '../contexts/AuthContext';
 import { useTranslation } from 'react-i18next';
 import LanguageSelector from './LanguageSelector';
@@ -17,29 +17,20 @@ const Navigation: React.FC<NavigationProps> = ({ activeTab, setActiveTab, onData
   const { t } = useTranslation('common');
 
 
-  const allTabs = [
-    { id: 'dashboard', label: t('navigation.dashboard'), icon: BarChart3, alwaysVisible: true },
+  const mainTabs = [
+    { id: 'dashboard', label: t('navigation.dashboard'), icon: BarChart3 },
+    { id: 'generic-dashboard', label: 'Generic Dashboard', icon: Activity },
+  ];
+
+  const specializedDashboards = [
     { id: 'customer-service', label: t('navigation.customerService'), icon: Heart, campaignType: 'customer_service' },
     { id: 'debt-collection', label: t('navigation.debtCollection'), icon: DollarSign, campaignType: 'debt_collection' },
     { id: 'sales', label: t('navigation.sales'), icon: TrendingUp, campaignType: 'sales' },
-    { id: 'campaigns', label: t('navigation.campaigns'), icon: Users, alwaysVisible: true },
-    { id: 'generic-dashboard', label: 'Generic Dashboard', icon: Activity, alwaysVisible: true },
   ];
 
-  // Filter tabs based on selected campaign type
-  const tabs = allTabs.filter(tab => {
-    // Always show tabs marked as alwaysVisible (dashboard, campaigns)
-    if (tab.alwaysVisible) {
-      return true;
-    }
-    
-    // Show specialized dashboard only if campaign type matches
-    if (tab.campaignType && selectedCampaignType) {
-      return tab.campaignType === selectedCampaignType;
-    }
-    
-    // Hide specialized dashboards when no campaign is selected or no matching type
-    return false;
+  // Filter specialized dashboards based on selected campaign type
+  const availableSpecializedDashboards = specializedDashboards.filter(dashboard => {
+    return !selectedCampaignType || dashboard.campaignType === selectedCampaignType;
   });
 
   return (
@@ -72,7 +63,8 @@ const Navigation: React.FC<NavigationProps> = ({ activeTab, setActiveTab, onData
               
               {/* Navigation Tabs */}
               <div className="flex space-x-1">
-                {tabs.map((tab) => {
+                {/* Main Dashboard Tabs */}
+                {mainTabs.map((tab) => {
                   const Icon = tab.icon;
                   const isActive = activeTab === tab.id;
                   return (
@@ -97,6 +89,52 @@ const Navigation: React.FC<NavigationProps> = ({ activeTab, setActiveTab, onData
                     </button>
                   );
                 })}
+
+                {/* Specialized Dashboards Dropdown */}
+                {availableSpecializedDashboards.length > 0 && (
+                  <div className="relative group">
+                    <button className={`group relative flex items-center space-x-2 px-4 py-2 rounded-xl text-sm font-medium transition-all duration-300 ${
+                      specializedDashboards.some(d => d.id === activeTab)
+                        ? 'bg-gradient-to-r from-purple-500/20 to-blue-500/20 text-purple-300 border border-purple-500/30 shadow-lg shadow-purple-500/10'
+                        : 'text-gray-400 hover:text-white hover:bg-gray-700/50 border border-transparent hover:border-gray-600/50'
+                    }`}>
+                      <Activity className={`w-4 h-4 transition-all duration-300 ${
+                        specializedDashboards.some(d => d.id === activeTab) ? 'text-purple-400' : 'group-hover:text-white'
+                      }`} />
+                      <span className="transition-all duration-300">Specialized</span>
+                      <ChevronDown className="w-3 h-3 transition-transform duration-200 group-hover:rotate-180" />
+                      
+                      {/* Active indicator */}
+                      {specializedDashboards.some(d => d.id === activeTab) && (
+                        <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 translate-y-1 w-1 h-1 bg-purple-500 rounded-full"></div>
+                      )}
+                    </button>
+                    
+                    {/* Dropdown Menu */}
+                    <div className="absolute top-full left-0 mt-2 w-56 bg-gray-800/95 backdrop-blur-sm border border-gray-700/50 rounded-lg shadow-2xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-[99999]">
+                      <div className="p-1">
+                        {availableSpecializedDashboards.map((dashboard) => {
+                          const Icon = dashboard.icon;
+                          const isActive = activeTab === dashboard.id;
+                          return (
+                            <button
+                              key={dashboard.id}
+                              onClick={() => setActiveTab(dashboard.id)}
+                              className={`w-full text-left px-3 py-2 text-sm rounded transition-all duration-200 flex items-center space-x-2 ${
+                                isActive 
+                                  ? 'bg-purple-500/20 text-purple-300 border border-purple-500/30' 
+                                  : 'text-gray-400 hover:bg-gray-700/50 hover:text-white'
+                              }`}
+                            >
+                              <Icon className="w-4 h-4" />
+                              <span>{dashboard.label}</span>
+                            </button>
+                          );
+                        })}
+                      </div>
+                    </div>
+                  </div>
+                )}
               </div>
             </div>
             
@@ -142,12 +180,22 @@ const Navigation: React.FC<NavigationProps> = ({ activeTab, setActiveTab, onData
                     </button>
                     
                     <button
+                      onClick={() => setActiveTab('campaigns')}
+                      className="w-full text-left px-3 py-2 text-sm rounded transition-all duration-200 flex items-center space-x-2 text-gray-400 hover:bg-gray-700/50 hover:text-white"
+                    >
+                      <Users className="w-4 h-4" />
+                      <span>{t('navigation.campaigns')}</span>
+                    </button>
+                    
+                    <button
                       onClick={() => setActiveTab('dashboard-admin')}
                       className="w-full text-left px-3 py-2 text-sm rounded transition-all duration-200 flex items-center space-x-2 text-gray-400 hover:bg-gray-700/50 hover:text-white"
                     >
                       <Settings className="w-4 h-4" />
                       <span>Dashboard Admin</span>
                     </button>
+                    
+                    <div className="border-t border-gray-700/50 my-1"></div>
                     
                     <button
                       onClick={logout}
