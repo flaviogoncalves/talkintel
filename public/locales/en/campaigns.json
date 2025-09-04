@@ -1,0 +1,34 @@
+{
+  "title": "Campaign Management",
+  "subtitle": "Manage and monitor your contact center campaigns",
+  "actions": {
+    "createCampaign": "Create Campaign",
+    "editCampaign": "Edit Campaign", 
+    "deleteCampaign": "Delete Campaign",
+    "activateCampaign": "Activate Campaign",
+    "deactivateCampaign": "Deactivate Campaign",
+    "duplicateCampaign": "Duplicate Campaign"
+  },
+  "fields": {
+    "campaignName": "Campaign Name",
+    "description": "Description",
+    "status": "Status", 
+    "type": "Type",
+    "startDate": "Start Date",
+    "endDate": "End Date",
+    "target": "Target",
+    "priority": "Priority"
+  },
+  "status": {
+    "active": "Active",
+    "inactive": "Inactive", 
+    "paused": "Paused",
+    "completed": "Completed",
+    "draft": "Draft"
+  },
+  "types": {
+    "inbound": "Inbound",
+    "outbound": "Outbound",
+    "blended": "Blended"
+  }
+}

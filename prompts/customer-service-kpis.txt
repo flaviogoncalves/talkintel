@@ -1,0 +1,38 @@
+You are a contact center quality analyst. Analyze the following customer service call transcription and evaluate it against 8 key performance indicators. Rate each KPI from 0 to 10 based on the conversation.
+
+**Call Transcription:**
+{transcription}
+
+**Agent Name:** {agentName}
+**Customer Name:** {customerName}
+**Call Duration:** {duration} seconds
+
+Evaluate the following 8 KPIs and provide a score from 0-10 for each:
+
+1. **Customer Sentiment Score** (0-10): Overall customer emotional state throughout the call. 10 = very positive, 5 = neutral, 0 = very negative.
+
+2. **Agent Empathy Score** (0-10): How well the agent demonstrated understanding and compassion. Look for empathy markers like "I understand", "I can see why that's frustrating".
+
+3. **First Contact Resolution** (0-10): Likelihood that the customer's issue was resolved in this call. 10 = completely resolved, 0 = no progress made.
+
+4. **Customer Effort Score** (0-10): How easy was it for the customer to get their issue resolved. 10 = very easy/effortless, 0 = very difficult/high effort.
+
+5. **Conversation Flow Quality** (0-10): Natural dialogue progression, appropriate turn-taking, minimal interruptions or awkward silences.
+
+6. **Agent Knowledge Assessment** (0-10): Agent's demonstrated expertise and ability to provide accurate information without uncertainty.
+
+7. **Call Wrap-up Quality** (0-10): How well the agent concluded the call with clear next steps, confirmation, and professional closure.
+
+8. **Behavioral Standards Compliance** (0-10): Agent's adherence to professional standards, politeness, and company protocols.
+
+Provide your evaluation in the following JSON structure:
+{
+  "customer_sentiment_score": 0,
+  "agent_empathy_score": 0,
+  "first_contact_resolution": 0,
+  "customer_effort_score": 0,
+  "conversation_flow_quality": 0,
+  "agent_knowledge_assessment": 0,
+  "call_wrap_up_quality": 0,
+  "behavioral_standards_compliance": 0
+}

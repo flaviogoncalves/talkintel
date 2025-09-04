@@ -1,0 +1,62 @@
+{
+  "title": "Customer Service Dashboard", 
+  "subtitle": "Advanced customer service metrics focusing on satisfaction, resolution quality, and customer experience",
+  "kpis": {
+    "customerSentiment": {
+      "title": "Customer Sentiment Score",
+      "subtitle": "Predicts CSAT with 85-95% accuracy",
+      "description": "Real-time sentiment analysis throughout conversations"
+    },
+    "agentEmpathy": {
+      "title": "Agent Empathy Score",
+      "subtitle": "15-20% better CSAT for high empathy agents", 
+      "description": "Detection of empathy markers and emotional acknowledgment"
+    },
+    "firstContactResolution": {
+      "title": "First Contact Resolution",
+      "subtitle": "Language-based detection",
+      "description": "Predicted resolution without external system data"
+    },
+    "customerEffort": {
+      "title": "Customer Effort Score",
+      "subtitle": "Friction detection through linguistics",
+      "description": "Detection of effort indicators in customer language"
+    },
+    "conversationFlow": {
+      "title": "Conversation Flow Quality", 
+      "subtitle": "Turn-taking, interruptions, silences",
+      "description": "Natural dialogue progression measurement"
+    },
+    "emotionalJourney": {
+      "title": "Emotional Journey Mapping",
+      "subtitle": "Sentiment changes throughout call",
+      "description": "Tracking emotional trajectory during interactions"
+    },
+    "agentKnowledge": {
+      "title": "Agent Knowledge Assessment",
+      "subtitle": "<10% uncertainty indicators",
+      "description": "Confidence and accuracy in responses"
+    },
+    "callWrapUp": {
+      "title": "Call Wrap-up Quality",
+      "subtitle": "85% should include clear next steps", 
+      "description": "Quality of call conclusion and follow-up"
+    }
+  },
+  "sections": {
+    "serviceQuality": "Service Quality Metrics",
+    "resolutionAnalysis": "Resolution Analysis",
+    "emotionalIntelligence": "Emotional Intelligence",
+    "processEfficiency": "Process Efficiency"
+  },
+  "metrics": {
+    "satisfactionScore": "Satisfaction Score",
+    "resolutionRate": "Resolution Rate", 
+    "averageHandleTime": "Average Handle Time",
+    "escalationRate": "Escalation Rate",
+    "repeatContactRate": "Repeat Contact Rate",
+    "knowledgeAccuracy": "Knowledge Accuracy",
+    "empathyDetection": "Empathy Detection",
+    "effortReduction": "Effort Reduction"
+  }
+}

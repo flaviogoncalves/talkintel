@@ -1,0 +1,34 @@
+{
+  "title": "Gerenciamento de Campanhas",
+  "subtitle": "Gerencie e monitore suas campanhas de contact center",
+  "actions": {
+    "createCampaign": "Criar Campanha",
+    "editCampaign": "Editar Campanha", 
+    "deleteCampaign": "Excluir Campanha",
+    "activateCampaign": "Ativar Campanha",
+    "deactivateCampaign": "Desativar Campanha",
+    "duplicateCampaign": "Duplicar Campanha"
+  },
+  "fields": {
+    "campaignName": "Nome da Campanha",
+    "description": "Descrição",
+    "status": "Status", 
+    "type": "Tipo",
+    "startDate": "Data de Início",
+    "endDate": "Data de Fim",
+    "target": "Meta",
+    "priority": "Prioridade"
+  },
+  "status": {
+    "active": "Ativo",
+    "inactive": "Inativo", 
+    "paused": "Pausado",
+    "completed": "Concluído",
+    "draft": "Rascunho"
+  },
+  "types": {
+    "inbound": "Receptivo",
+    "outbound": "Ativo",
+    "blended": "Híbrido"
+  }
+}

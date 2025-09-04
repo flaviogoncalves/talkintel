@@ -1,0 +1,69 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.env
+.env.local
+.env.production
+.env.staging
+
+# Temporary files and folders
+temp_converted/
+*.tmp
+*.temp
+
+# Test files and development utilities (to prevent future accumulation)
+test-*.js
+test-*.cjs
+test-*.ps1
+test-*.json
+debug-*.js
+debug-*.cjs
+check-*.js
+check-*.cjs
+clean-*.js
+clean-*.cjs
+fix-*.js
+recreate-*.js
+recalculate-*.js
+trigger-*.js
+register-and-test.js
+
+# Audio files and processing results
+TCR-Verbio/
+*.mp3
+*.wav
+*.flac
+*.m4a
+transcription_results_*.json
+
+# Windows Zone.Identifier files
+*:Zone.Identifier
+*.Zone.Identifier
+
+# Development artifacts
+.bolt/
+login.json
+login_response.json
+mysql-apt-config_*.deb
+*.excalidraw

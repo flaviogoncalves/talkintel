@@ -1,0 +1,81 @@
+{
+  "title": "Dashboard de Performance de Vendas",
+  "subtitle": "Métricas avançadas de vendas focando em dinâmicas de conversa, aderência metodológica e geração de receita",
+  "kpis": {
+    "talkToListenRatio": {
+      "title": "Proporção Falar-Ouvir",
+      "subtitle": "Meta: 40-45% tempo de fala do agente",
+      "description": "Equilíbrio ideal entre tempo de fala do agente e cliente"
+    },
+    "discoveryQuestions": {
+      "title": "Perguntas de Descoberta/Hora", 
+      "subtitle": "Performers de elite: 18+ perguntas/hora",
+      "description": "Número de perguntas qualificatórias feitas por hora"
+    },
+    "customerMonologue": {
+      "title": "Monólogo do Cliente",
+      "subtitle": "Meta: 45-90 segundos (engajamento)",
+      "description": "Maior tempo ininterrupto de fala do cliente"
+    },
+    "conversationSwitches": {
+      "title": "Trocas de Conversa",
+      "subtitle": "Maior = diálogo mais interativo", 
+      "description": "Frequência de transições entre falantes"
+    },
+    "sentimentProgression": {
+      "title": "Progressão do Sentimento",
+      "subtitle": "Meta: 70% mudança positiva",
+      "description": "Melhoria do sentimento do cliente durante a chamada"
+    },
+    "valuePropositions": {
+      "title": "Propostas de Valor/10min",
+      "subtitle": "Meta: 3-4 conexões por 10 minutos",
+      "description": "Taxa de articulação de propostas de valor"
+    },
+    "competitiveHandling": {
+      "title": "Tratamento de Competição", 
+      "subtitle": "Meta: 90% reconhecimento",
+      "description": "Resposta adequada a menções da concorrência"
+    },
+    "accountKnowledge": {
+      "title": "Conhecimento da Conta",
+      "subtitle": "85% devem demonstrar preparação",
+      "description": "Evidência de pesquisa e preparação da conta"
+    }
+  },
+  "sections": {
+    "revenuePerformance": "Performance de Receita",
+    "conversationQuality": "Análise de Qualidade da Conversa",
+    "talkListenBalance": "Equilíbrio Falar-Ouvir", 
+    "engagementQuality": "Qualidade do Engajamento",
+    "salesMethodology": "Melhores Práticas de Metodologia de Vendas",
+    "conversationDynamics": "Dinâmicas de Conversa",
+    "salesExcellence": "Excelência em Vendas"
+  },
+  "metrics": {
+    "averageDealValue": "Valor Médio do Negócio",
+    "conversionRate": "Taxa de Conversão",
+    "methodologyAdherence": "Aderência à Metodologia",
+    "perSuccessfulConversion": "Por conversão bem-sucedida",
+    "qualifiedLeadsToSales": "Leads qualificados para vendas", 
+    "spinMeddicCoverage": "Cobertura SPIN/MEDDIC",
+    "agentTalkTime": "Tempo de Fala do Agente",
+    "customerTalkTime": "Tempo de Fala do Cliente",
+    "balanceStatus": "Status do Equilíbrio",
+    "optimal": "Ideal",
+    "good": "Bom", 
+    "needsImprovement": "Precisa Melhorar",
+    "eliteLevel": "Nível Elite",
+    "suboptimal": "Subótimo",
+    "dynamic": "Dinâmico",
+    "static": "Estático"
+  },
+  "bestPractices": {
+    "optimalTalkToListen": "Proporção ideal falar-ouvir (40-45%)",
+    "eliteDiscoveryRate": "Taxa elite de perguntas de descoberta (18+/hora)", 
+    "customerEngagementDepth": "Profundidade de engajamento do cliente (histórias de 45-90s)",
+    "positiveSentimentProgression": "Progressão positiva do sentimento (meta 70%+)",
+    "valuePropositionArticulation": "Articulação de proposta de valor (3-4/10min)",
+    "competitiveHandlingExcellence": "Excelência no tratamento da concorrência (meta 90%+)"
+  }
+}

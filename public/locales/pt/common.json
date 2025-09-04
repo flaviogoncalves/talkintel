@@ -1,0 +1,55 @@
+{
+  "navigation": {
+    "dashboard": "Dashboard",
+    "customerService": "Atendimento ao Cliente",
+    "debtCollection": "Cobrança", 
+    "sales": "Vendas",
+    "campaigns": "Campanhas",
+    "logout": "Sair",
+    "profile": "Perfil",
+    "settings": "Configurações"
+  },
+  "buttons": {
+    "login": "Entrar",
+    "register": "Registrar",
+    "cancel": "Cancelar",
+    "confirm": "Confirmar",
+    "save": "Salvar",
+    "delete": "Excluir",
+    "edit": "Editar",
+    "upload": "Enviar",
+    "download": "Baixar",
+    "refresh": "Atualizar",
+    "clear": "Limpar",
+    "filter": "Filtrar",
+    "search": "Pesquisar",
+    "close": "Fechar",
+    "next": "Próximo",
+    "previous": "Anterior",
+    "submit": "Enviar"
+  },
+  "time": {
+    "last7Days": "Últimos 7 dias",
+    "last30Days": "Últimos 30 dias",
+    "today": "Hoje",
+    "thisWeek": "Esta semana",
+    "thisMonth": "Este mês",
+    "custom": "Período personalizado"
+  },
+  "status": {
+    "loading": "Carregando...",
+    "error": "Erro",
+    "success": "Sucesso",
+    "warning": "Atenção",
+    "info": "Informação",
+    "noData": "Nenhum dado disponível",
+    "connected": "Conectado",
+    "disconnected": "Desconectado"
+  },
+  "actions": {
+    "viewDetails": "Ver Detalhes",
+    "clearDatabase": "Limpar Base de Dados",
+    "recalculateMetrics": "Recalcular Métricas",
+    "switchLanguage": "Alterar Idioma"
+  }
+}

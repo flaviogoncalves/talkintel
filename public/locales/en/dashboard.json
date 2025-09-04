@@ -1,0 +1,50 @@
+{
+  "title": "Dashboard",
+  "subtitle": "Real-time contact center analytics and performance insights",
+  "metrics": {
+    "totalCalls": "Total Calls",
+    "averageSatisfaction": "Average Satisfaction",
+    "sentimentRecoveryRate": "Recovery Rate",
+    "resolutionRate": "Resolution Rate",
+    "averageCallDuration": "Avg Call Duration",
+    "humanAgents": "Human Agents",
+    "aiAgents": "AI Agents",
+    "callsToday": "Calls Today",
+    "callsThisWeek": "Calls This Week"
+  },
+  "sections": {
+    "overview": "Overview",
+    "agentPerformance": "Agent Performance", 
+    "callAnalysis": "Call Analysis",
+    "topTopics": "Top Topics",
+    "sentimentAnalysis": "Sentiment Analysis",
+    "trendingTopics": "Trending Topics"
+  },
+  "charts": {
+    "sentimentDistribution": "Sentiment Distribution",
+    "positive": "Positive",
+    "neutral": "Neutral", 
+    "negative": "Negative",
+    "recovery": "Recovery",
+    "wordCloud": "Word Cloud",
+    "topicTrends": "Topic Trends"
+  },
+  "filters": {
+    "dateRange": "Date Range",
+    "campaign": "Campaign",
+    "agent": "Agent",
+    "all": "All"
+  },
+  "callAnalysis": {
+    "callId": "Call ID",
+    "timestamp": "Timestamp",
+    "agent": "Agent",
+    "customer": "Customer",
+    "duration": "Duration",
+    "satisfaction": "Satisfaction",
+    "sentiment": "Sentiment",
+    "resolved": "Resolved",
+    "topics": "Topics",
+    "summary": "Summary"
+  }
+}

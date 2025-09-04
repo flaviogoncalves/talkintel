@@ -1,0 +1,109 @@
+{
+  "title": "Dashboard",
+  "subtitle": "Real-time contact center analytics and performance insights",
+  "welcome": {
+    "greeting": "👋 Welcome, {{name}}!",
+    "company": "Company:",
+    "profile": "Profile:"
+  },
+  "metrics": {
+    "title": "Key Metrics",
+    "totalCalls": "Total Calls",
+    "averageSatisfaction": "Average Sentiment", 
+    "sentimentRecoveryRate": "Recovery Rate",
+    "resolutionRate": "Resolution Rate",
+    "averageCallDuration": "Average Duration",
+    "humanAgents": "Human Agents",
+    "aiAgents": "AI Agents",
+    "callsToday": "Calls Today",
+    "callsThisWeek": "Calls This Week",
+    "allCampaigns": "All Campaigns",
+    "clearDatabase": "Clear Database",
+    "last7Days": "Last 7 days",
+    "last30Days": "Last 30 days",
+    "last90Days": "Last 90 days"
+  },
+  "sentiment": {
+    "title": "Advanced Sentiment Analysis",
+    "callsAnalyzed": "{{count}} calls analyzed",
+    "distribution": "Sentiment Distribution",
+    "positive": "Positive",
+    "neutral": "Neutral", 
+    "negative": "Negative",
+    "recoveryRate": "Recovery Rate",
+    "recoveryDescription": "Ability to turn negative interactions into positive ones",
+    "averageScore": "Average Score",
+    "withSentiment": "With Sentiment",
+    "recoveryQuality": "Recovery Quality",
+    "attentionNeeded": "🎯 Attention - Focus needed on emotional recovery training"
+  },
+  "topics": {
+    "title": "Topic Cloud",
+    "noTopicsFound": "No Topics Found", 
+    "description": "The topic cloud will appear here after processing webhooks with topic analysis.",
+    "noTopicsMessage": "No topics found",
+    "uniqueTopics": "unique topics",
+    "maxOccurrences": "Max: {{count}} occurrences",
+    "clickForDetails": "Click on words for more details",
+    "filteredByTopic": "Calls with topic \"{{topic}}\" ({{filtered}} of {{total}})",
+    "clearTopicFilter": "Clear filter"
+  },
+  "performance": {
+    "title": "Top Performance",
+    "humanAgent": "Human Agent",
+    "aiAgent": "AI Agent",
+    "totalCalls": "Total Calls",
+    "sentiment": "Average Sentiment", 
+    "resolutionRate": "Recovery Rate",
+    "quality": "CSAT",
+    "mainTags": "Main Tags",
+    "deleteAgent": "Delete agent"
+  },
+  "noData": {
+    "title": "No Data Found",
+    "description": "Configure the webhook to start receiving real-time analytics data from your contact center.",
+    "selectCampaign": "Select a campaign to see your webhook"
+  },
+  "tooltips": {
+    "totalCalls": "Total number of calls processed through the webhook system",
+    "averageSentiment": "Average sentiment score calculated from time-weighted sentiment analysis (0-100 scale, higher = more positive)",
+    "sentimentRecoveryRate": "Percentage of calls where negative sentiment was recovered to neutral/positive during the conversation",
+    "resolutionRate": "Percentage of calls that were marked as resolved based on conversation analysis",
+    "averageCallDuration": "Average duration of calls in seconds, calculated from the audio duration data in webhooks"
+  },
+  "sections": {
+    "overview": "Overview",
+    "agentPerformance": "Agent Performance", 
+    "callAnalysis": "Call Analysis",
+    "topTopics": "Top Topics",
+    "sentimentAnalysis": "Sentiment Analysis",
+    "trendingTopics": "Trending Topics"
+  },
+  "charts": {
+    "sentimentDistribution": "Sentiment Distribution",
+    "positive": "Positive",
+    "neutral": "Neutral", 
+    "negative": "Negative",
+    "recovery": "Recovery",
+    "wordCloud": "Word Cloud",
+    "topicTrends": "Topic Trends"
+  },
+  "filters": {
+    "dateRange": "Date Range",
+    "campaign": "Campaign",
+    "agent": "Agent",
+    "all": "All"
+  },
+  "callAnalysis": {
+    "callId": "Call ID",
+    "timestamp": "Timestamp",
+    "agent": "Agent",
+    "customer": "Customer",
+    "duration": "Duration",
+    "satisfaction": "Satisfaction",
+    "sentiment": "Sentiment",
+    "resolved": "Resolved",
+    "topics": "Topics",
+    "summary": "Summary"
+  }
+}

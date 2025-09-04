@@ -1,0 +1,109 @@
+{
+  "title": "Dashboard",
+  "subtitle": "Análises de contact center em tempo real e insights de performance",
+  "welcome": {
+    "greeting": "👋 Bem-vindo, {{name}}!",
+    "company": "Empresa:",
+    "profile": "Perfil:"
+  },
+  "metrics": {
+    "title": "Métricas Principais",
+    "totalCalls": "Total de Chamadas",
+    "averageSatisfaction": "Sentimento Médio",
+    "sentimentRecoveryRate": "Taxa de Recuperação", 
+    "resolutionRate": "Taxa de Resolução",
+    "averageCallDuration": "Duração Média",
+    "humanAgents": "Agentes Humanos",
+    "aiAgents": "Agentes IA",
+    "callsToday": "Chamadas Hoje",
+    "callsThisWeek": "Chamadas Esta Semana",
+    "allCampaigns": "Todas as Campanhas",
+    "clearDatabase": "Limpar banco de dados",
+    "last7Days": "Últimos 7 dias",
+    "last30Days": "Últimos 30 dias",
+    "last90Days": "Últimos 90 dias"
+  },
+  "sentiment": {
+    "title": "Análise de Sentimento Avançada",
+    "callsAnalyzed": "{{count}} chamadas analisadas",
+    "distribution": "Distribuição de Sentimentos",
+    "positive": "Positivo",
+    "neutral": "Neutro", 
+    "negative": "Negativo",
+    "recoveryRate": "Taxa de Recuperação",
+    "recoveryDescription": "Capacidade de transformar interações negativas em positivas",
+    "averageScore": "Score Médio",
+    "withSentiment": "Com Sentimento",
+    "recoveryQuality": "Qualidade da Recuperação",
+    "attentionNeeded": "🎯 Atenção - Foco necessário em treinamento de recuperação emocional"
+  },
+  "topics": {
+    "title": "Nuvem de Tópicos",
+    "noTopicsFound": "Nenhum Tópico Encontrado",
+    "description": "A nuvem de tópicos aparecerá aqui após processar webhooks com análise de tópicos.",
+    "noTopicsMessage": "Nenhum tópico encontrado",
+    "uniqueTopics": "tópicos únicos",
+    "maxOccurrences": "Máx: {{count}} ocorrências",
+    "clickForDetails": "Clique nas palavras para mais detalhes",
+    "filteredByTopic": "Chamadas com tópico \"{{topic}}\" ({{filtered}} de {{total}})",
+    "clearTopicFilter": "Limpar filtro"
+  },
+  "performance": {
+    "title": "Melhor Desempenho",
+    "humanAgent": "Agente Humano",
+    "aiAgent": "Agente IA",
+    "totalCalls": "Total de Chamadas",
+    "sentiment": "Sentimento Médio",
+    "resolutionRate": "Taxa de Recuperação", 
+    "quality": "CSAT",
+    "mainTags": "Tags Principais",
+    "deleteAgent": "Excluir agente"
+  },
+  "noData": {
+    "title": "Nenhum Dado Encontrado",
+    "description": "Configure o webhook para começar a receber dados de análise em tempo real do seu contact center.",
+    "selectCampaign": "Selecione uma campanha para ver seu webhook"
+  },
+  "tooltips": {
+    "totalCalls": "Número total de chamadas processadas através do sistema de webhook",
+    "averageSentiment": "Score médio de sentimento calculado através de análise ponderada por tempo (escala 0-100, maior = mais positivo)",
+    "sentimentRecoveryRate": "Porcentagem de chamadas onde sentimento negativo foi recuperado para neutro/positivo durante a conversa",
+    "resolutionRate": "Porcentagem de chamadas que foram marcadas como resolvidas baseado na análise da conversa",
+    "averageCallDuration": "Duração média das chamadas em segundos, calculada a partir dos dados de duração de áudio nos webhooks"
+  },
+  "sections": {
+    "overview": "Visão Geral",
+    "agentPerformance": "Performance dos Agentes", 
+    "callAnalysis": "Análise de Chamadas",
+    "topTopics": "Principais Tópicos",
+    "sentimentAnalysis": "Análise de Sentimento",
+    "trendingTopics": "Tópicos em Tendência"
+  },
+  "charts": {
+    "sentimentDistribution": "Distribuição de Sentimento",
+    "positive": "Positivo",
+    "neutral": "Neutro", 
+    "negative": "Negativo",
+    "recovery": "Recuperação",
+    "wordCloud": "Nuvem de Palavras",
+    "topicTrends": "Tendências dos Tópicos"
+  },
+  "filters": {
+    "dateRange": "Período",
+    "campaign": "Campanha",
+    "agent": "Agente",
+    "all": "Todos"
+  },
+  "callAnalysis": {
+    "callId": "ID da Chamada",
+    "timestamp": "Data/Hora",
+    "agent": "Agente",
+    "customer": "Cliente",
+    "duration": "Duração",
+    "satisfaction": "Satisfação",
+    "sentiment": "Sentimento",
+    "resolved": "Resolvido",
+    "topics": "Tópicos",
+    "summary": "Resumo"
+  }
+}

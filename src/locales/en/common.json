@@ -1,0 +1,65 @@
+{
+  "navigation": {
+    "dashboard": "Dashboard",
+    "customerService": "Customer Service",
+    "debtCollection": "Debt Collection", 
+    "sales": "Sales",
+    "campaigns": "Campaigns",
+    "logout": "Logout",
+    "profile": "Profile",
+    "settings": "Settings"
+  },
+  "buttons": {
+    "login": "Login",
+    "register": "Register",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "save": "Save",
+    "delete": "Delete",
+    "edit": "Edit",
+    "upload": "Upload",
+    "download": "Download",
+    "refresh": "Refresh",
+    "clear": "Clear",
+    "filter": "Filter",
+    "search": "Search",
+    "close": "Close",
+    "next": "Next",
+    "previous": "Previous",
+    "submit": "Submit"
+  },
+  "time": {
+    "last7Days": "Last 7 days",
+    "last30Days": "Last 30 days",
+    "today": "Today",
+    "thisWeek": "This week",
+    "thisMonth": "This month",
+    "custom": "Custom period"
+  },
+  "periods": {
+    "vsPreviousPeriod": "vs. previous period"
+  },
+  "status": {
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success",
+    "warning": "Warning",
+    "info": "Information",
+    "noData": "No data available",
+    "connected": "Connected",
+    "disconnected": "Disconnected",
+    "noCampaignsFound": "No campaigns found",
+    "loadingCampaigns": "Loading campaigns...",
+    "clearingDatabase": "Clearing database..."
+  },
+  "actions": {
+    "viewDetails": "View Details",
+    "clearDatabase": "Clear Database",
+    "recalculateMetrics": "Recalculate Metrics",
+    "switchLanguage": "Switch Language"
+  },
+  "campaign": {
+    "type": "Type",
+    "filtered": "Filtered"
+  }
+}

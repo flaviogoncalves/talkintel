@@ -1,0 +1,172 @@
+{
+  "title": "Dashboard de Atendimento ao Cliente", 
+  "subtitle": "Métricas avançadas de atendimento focando em satisfação, qualidade de resolução e experiência do cliente",
+  "kpis": {
+    "customerSentiment": {
+      "title": "Pontuação de Sentimento do Cliente",
+      "subtitle": "Prediz CSAT com 85-95% de precisão",
+      "description": "Análise de sentimento em tempo real durante conversas"
+    },
+    "agentEmpathy": {
+      "title": "Pontuação de Empatia do Agente",
+      "subtitle": "15-20% melhor CSAT para agentes com alta empatia", 
+      "description": "Detecção de marcadores de empatia e reconhecimento emocional"
+    },
+    "firstContactResolution": {
+      "title": "Resolução no Primeiro Contato",
+      "subtitle": "Detecção baseada em linguagem",
+      "description": "Resolução prevista sem dados de sistema externo"
+    },
+    "customerEffort": {
+      "title": "Pontuação de Esforço do Cliente",
+      "subtitle": "Detecção de fricção através de linguística",
+      "description": "Detecção de indicadores de esforço na linguagem do cliente"
+    },
+    "conversationFlow": {
+      "title": "Qualidade do Fluxo de Conversa", 
+      "subtitle": "Alternância, interrupções, silêncios",
+      "description": "Medição de progressão natural do diálogo"
+    },
+    "emotionalJourney": {
+      "title": "Mapeamento da Jornada Emocional",
+      "subtitle": "Mudanças de sentimento durante a chamada",
+      "description": "Rastreamento da trajetória emocional durante interações"
+    },
+    "agentKnowledge": {
+      "title": "Avaliação de Conhecimento do Agente",
+      "subtitle": "<10% indicadores de incerteza",
+      "description": "Confiança e precisão nas respostas"
+    },
+    "callWrapUp": {
+      "title": "Qualidade do Encerramento da Chamada",
+      "subtitle": "85% devem incluir próximos passos claros", 
+      "description": "Qualidade da conclusão da chamada e acompanhamento"
+    },
+    "scriptAdherence": {
+      "title": "Aderência ao Script",
+      "subtitle": "Conformidade com scripts de chamada definidos",
+      "description": "Mede quão bem os agentes seguem o fluxo de conversa prescrito",
+      "basedOnCalls": "Baseado em {{count}} chamadas",
+      "noScriptsConfigured": "Nenhum script configurado"
+    }
+  },
+  "advanced_analytics": {
+    "title": "Análise Avançada de Atendimento ao Cliente",
+    "description": "Analytics premium de conversação com predição de sentimento (85-95% de precisão CSAT), pontuação de empatia do agente e análise de esforço do cliente.",
+    "customer_sentiment_analysis": {
+      "title": "Análise de Sentimento do Cliente",
+      "initial_sentiment": "Sentimento Inicial",
+      "final_sentiment": "Sentimento Final", 
+      "sentiment_progression": "Progresso do Sentimento",
+      "csat_prediction": "Predição CSAT",
+      "scale_note": "Escala de -1,0 a +1,0",
+      "outcome_note": "Sentimento do resultado da chamada"
+    },
+    "agent_empathy_analysis": {
+      "title": "Análise de Empatia do Agente",
+      "empathy_markers": "Indicadores de Empatia",
+      "emotional_acknowledgment": "Reconhecimento Emocional", 
+      "empathy_score": "Pontuação de Empatia",
+      "performance_rating": "Avaliação de Desempenho"
+    },
+    "resolution_quality": {
+      "title": "Qualidade de Resolução",
+      "first_contact_resolution": "Resolução no Primeiro Contato",
+      "resolution_language": "Linguagem de Resolução",
+      "customer_acknowledgment": "Reconhecimento do Cliente", 
+      "fcr_rate": "Taxa FCR",
+      "resolution_confidence": "Confiança na Resolução"
+    },
+    "customer_effort_analysis": {
+      "title": "Análise de Esforço do Cliente",
+      "effort_indicators": "Indicadores de Esforço",
+      "effort_score": "Pontuação de Esforço"
+    },
+    "conversation_flow": {
+      "title": "Fluxo da Conversa", 
+      "inappropriate_interruptions": "Interrupções Inadequadas",
+      "awkward_silences": "Silêncios Constrangedores",
+      "turn_taking_quality": "Qualidade de Alternância"
+    },
+    "agent_knowledge": {
+      "title": "Conhecimento do Agente",
+      "uncertainty_indicators": "Indicadores de Incerteza",
+      "accuracy_score": "Pontuação de Precisão"
+    }
+  },
+  "ui": {
+    "loading_message": "Carregando métricas de Customer Service...",
+    "error_loading": "Erro ao Carregar Dados",
+    "try_again": "Tentar Novamente",
+    "no_data": "Nenhum dado disponível",
+    "top_agents": "Top 3 Agentes",
+    "bottom_agents": "3 Piores Agentes",
+    "overall_score": "Pontuação Geral",
+    "calls": "chamadas",
+    "recent_call_analysis": "Análise de Chamadas Recentes",
+    "last_calls": "Últimas {{count}} chamadas",
+    "date": "Data",
+    "agent": "Agente",
+    "customer": "Cliente",
+    "sentiment": "Sentimento",
+    "empathy": "Empatia",
+    "fcr": "RPC",
+    "script": "Script",
+    "not_identified": "Não identificado",
+    "sentiment_progression": "Progresso do Sentimento",
+    "csat_prediction": "Predição CSAT",
+    "empathy_markers": "Indicadores de Empatia",
+    "emotional_acknowledgment": "Reconhecimento Emocional",
+    "empathy_score": "Pontuação de Empatia",
+    "performance_rating": "Avaliação de Desempenho",
+    "first_contact_resolution": "Resolução no Primeiro Contato",
+    "resolution_language": "Linguagem de Resolução",
+    "customer_acknowledgment": "Reconhecimento do Cliente",
+    "fcr_rate": "Taxa FCR",
+    "resolution_confidence": "Confiança na Resolução",
+    "effort_indicators": "Indicadores de Esforço",
+    "effort_score": "Pontuação de Esforço",
+    "ease_of_interaction": "Facilidade de Interação",
+    "friction_indicators": "Indicadores de Fricção",
+    "inappropriate_interruptions": "Interrupções Inadequadas",
+    "awkward_silences": "Silêncios Constrangedores",
+    "turn_taking_quality": "Qualidade de Alternância",
+    "flow_disruptions": "Interrupções do Fluxo",
+    "flow_quality_score": "Pontuação de Qualidade do Fluxo",
+    "uncertainty_indicators": "Indicadores de Incerteza",
+    "expertise_demonstrated": "Expertise Demonstrada",
+    "personal_references": "Referências Pessoais",
+    "history_referenced": "Histórico Referenciado",
+    "personalization_score": "Pontuação de Personalização",
+    "proactive_actions": "Ações Proativas",
+    "future_needs_addressed": "Necessidades Futuras Atendidas",
+    "personalization_proactive_service": "Personalização e Serviço Proativo",
+    "call_wrap_up_quality": "Qualidade do Encerramento da Chamada",
+    "clear_next_steps": "Próximos Passos Claros",
+    "confirmation_provided": "Confirmação Fornecida",
+    "contact_info_shared": "Informações de Contato Compartilhadas",
+    "wrap_up_quality": "Qualidade do Encerramento",
+    "behavioral_compliance": "Conformidade Comportamental",
+    "professional_tone": "Tom Profissional",
+    "active_listening": "Escuta Ativa",
+    "patience_demonstrated": "Paciência Demonstrada",
+    "compliance_score": "Pontuação de Conformidade",
+    "sample_empathy_phrases": "Frases de Empatia de Exemplo"
+  },
+  "sections": {
+    "serviceQuality": "Métricas de Qualidade do Serviço",
+    "resolutionAnalysis": "Análise de Resolução",
+    "emotionalIntelligence": "Inteligência Emocional",
+    "processEfficiency": "Eficiência do Processo"
+  },
+  "metrics": {
+    "satisfactionScore": "Pontuação de Satisfação",
+    "resolutionRate": "Taxa de Resolução", 
+    "averageHandleTime": "Tempo Médio de Atendimento",
+    "escalationRate": "Taxa de Escalonamento",
+    "repeatContactRate": "Taxa de Contato Repetido",
+    "knowledgeAccuracy": "Precisão do Conhecimento",
+    "empathyDetection": "Detecção de Empatia",
+    "effortReduction": "Redução de Esforço"
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "title": "Debt Collection Performance",
+  "subtitle": "Specialized metrics for debt collection operations focusing on compliance, recovery rates, and customer handling",
+  "kpis": {
+    "promiseToPayRate": {
+      "title": "Promise-to-Pay Rate",
+      "subtitle": "Target: 15-25% (Industry avg: 10-12%)",
+      "description": "Percentage of calls that result in payment commitments"
+    },
+    "complianceRate": {
+      "title": "Compliance Rate", 
+      "subtitle": "Must be 100% (FDCPA requirement)",
+      "description": "Adherence to Fair Debt Collection Practices Act"
+    },
+    "paymentDiscussionRate": {
+      "title": "Payment Discussion Rate",
+      "subtitle": "Target: 80%+ on appropriate calls",
+      "description": "Percentage of calls where payment is discussed"
+    },
+    "rightPartyContact": {
+      "title": "Right Party Contact",
+      "subtitle": "Must approach 100% for compliance", 
+      "description": "Verified contact with correct debtor"
+    },
+    "objectionHandling": {
+      "title": "Objection Handling",
+      "subtitle": "Elite performers: 60% success rate",
+      "description": "Effectiveness in addressing customer objections"
+    },
+    "empathyScore": {
+      "title": "Empathy Score", 
+      "subtitle": "Correlates with 15-25% better performance",
+      "description": "Agent empathy and professional tone rating"
+    },
+    "fdcpaViolations": {
+      "title": "FDCPA Violations",
+      "subtitle": "$1,000 per violation fine",
+      "description": "Number of compliance violations detected"
+    },
+    "customerHardship": {
+      "title": "Customer Hardship Rate",
+      "subtitle": "Requires accommodation tracking", 
+      "description": "Percentage of calls involving financial hardship"
+    }
+  },
+  "sections": {
+    "performanceSummary": "Collection Performance Summary",
+    "collectionEfficiency": "Collection Efficiency",
+    "complianceStatus": "Compliance Status", 
+    "customerRelations": "Customer Relations",
+    "bestPractices": "Debt Collection Best Practices"
+  },
+  "performance": {
+    "totalCalls": "Total Calls",
+    "avgRecoveryAmount": "Avg Recovery Amount",
+    "successRate": "Success Rate",
+    "aboveTarget": "Above Target",
+    "belowTarget": "Below Target",
+    "violationCount": "Violation Count",
+    "status": "Status",
+    "compliant": "Compliant",
+    "atRisk": "At Risk",
+    "hardshipRecognition": "Hardship Recognition",
+    "eliteLevel": "Elite Level",
+    "needsImprovement": "Needs Improvement"
+  },
+  "compliance": {
+    "regulatoryCompliance": "Regulatory Compliance",
+    "miniMiranda": "Mini-Miranda disclosure (100% required)",
+    "rightPartyVerification": "Right party verification",
+    "noProhibitedLanguage": "No prohibited language violations",
+    "performanceExcellence": "Performance Excellence",
+    "promiseToPayAboveAverage": "Promise-to-pay above industry average", 
+    "paymentDiscussionAppropriate": "Payment discussion on appropriate calls",
+    "highEmpathyScores": "High empathy scores for better outcomes"
+  }
+}

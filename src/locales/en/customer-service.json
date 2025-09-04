@@ -1,0 +1,172 @@
+{
+  "title": "Customer Service Dashboard", 
+  "subtitle": "Advanced customer service metrics focusing on satisfaction, resolution quality, and customer experience",
+  "kpis": {
+    "customerSentiment": {
+      "title": "Customer Sentiment Score",
+      "subtitle": "Predicts CSAT with 85-95% accuracy",
+      "description": "Real-time sentiment analysis throughout conversations"
+    },
+    "agentEmpathy": {
+      "title": "Agent Empathy Score",
+      "subtitle": "15-20% better CSAT for high empathy agents", 
+      "description": "Detection of empathy markers and emotional acknowledgment"
+    },
+    "firstContactResolution": {
+      "title": "First Contact Resolution",
+      "subtitle": "Language-based detection",
+      "description": "Predicted resolution without external system data"
+    },
+    "customerEffort": {
+      "title": "Customer Effort Score",
+      "subtitle": "Friction detection through linguistics",
+      "description": "Detection of effort indicators in customer language"
+    },
+    "conversationFlow": {
+      "title": "Conversation Flow Quality", 
+      "subtitle": "Turn-taking, interruptions, silences",
+      "description": "Natural dialogue progression measurement"
+    },
+    "emotionalJourney": {
+      "title": "Emotional Journey Mapping",
+      "subtitle": "Sentiment changes throughout call",
+      "description": "Tracking emotional trajectory during interactions"
+    },
+    "agentKnowledge": {
+      "title": "Agent Knowledge Assessment",
+      "subtitle": "<10% uncertainty indicators",
+      "description": "Confidence and accuracy in responses"
+    },
+    "callWrapUp": {
+      "title": "Call Wrap-up Quality",
+      "subtitle": "85% should include clear next steps", 
+      "description": "Quality of call conclusion and follow-up"
+    },
+    "scriptAdherence": {
+      "title": "Script Adherence",
+      "subtitle": "Compliance with defined call scripts",
+      "description": "Measures how well agents follow prescribed conversation flow",
+      "basedOnCalls": "Based on {{count}} calls",
+      "noScriptsConfigured": "No scripts configured"
+    }
+  },
+  "advanced_analytics": {
+    "title": "Advanced Customer Service Analytics",
+    "description": "Premium conversation analytics with sentiment prediction (85-95% CSAT accuracy), agent empathy scoring, and customer effort analysis.",
+    "customer_sentiment_analysis": {
+      "title": "Customer Sentiment Analysis",
+      "initial_sentiment": "Initial Sentiment",
+      "final_sentiment": "Final Sentiment", 
+      "sentiment_progression": "Sentiment Progression",
+      "csat_prediction": "CSAT Prediction",
+      "scale_note": "-1.0 to +1.0 scale",
+      "outcome_note": "Call outcome sentiment"
+    },
+    "agent_empathy_analysis": {
+      "title": "Agent Empathy Analysis",
+      "empathy_markers": "Empathy Markers",
+      "emotional_acknowledgment": "Emotional Acknowledgment", 
+      "empathy_score": "Empathy Score",
+      "performance_rating": "Performance Rating"
+    },
+    "resolution_quality": {
+      "title": "Resolution Quality",
+      "first_contact_resolution": "First Contact Resolution",
+      "resolution_language": "Resolution Language",
+      "customer_acknowledgment": "Customer Acknowledgment", 
+      "fcr_rate": "FCR Rate",
+      "resolution_confidence": "Resolution Confidence"
+    },
+    "customer_effort_analysis": {
+      "title": "Customer Effort Analysis",
+      "effort_indicators": "Effort Indicators",
+      "effort_score": "Effort Score"
+    },
+    "conversation_flow": {
+      "title": "Conversation Flow", 
+      "inappropriate_interruptions": "Inappropriate Interruptions",
+      "awkward_silences": "Awkward Silences",
+      "turn_taking_quality": "Turn-taking Quality"
+    },
+    "agent_knowledge": {
+      "title": "Agent Knowledge",
+      "uncertainty_indicators": "Uncertainty Indicators",
+      "accuracy_score": "Accuracy Score"
+    }
+  },
+  "ui": {
+    "loading_message": "Loading Customer Service metrics...",
+    "error_loading": "Error Loading Data",
+    "try_again": "Try Again",
+    "no_data": "No data available",
+    "top_agents": "Top 3 Agents",
+    "bottom_agents": "Bottom 3 Agents", 
+    "overall_score": "Overall Score",
+    "calls": "calls",
+    "recent_call_analysis": "Recent Call Analysis",
+    "last_calls": "Last {{count}} calls",
+    "date": "Date",
+    "agent": "Agent",
+    "customer": "Customer", 
+    "sentiment": "Sentiment",
+    "empathy": "Empathy",
+    "fcr": "FCR",
+    "script": "Script",
+    "not_identified": "Not identified",
+    "sentiment_progression": "Sentiment Progression",
+    "csat_prediction": "CSAT Prediction",
+    "empathy_markers": "Empathy Markers",
+    "emotional_acknowledgment": "Emotional Acknowledgment",
+    "empathy_score": "Empathy Score",
+    "performance_rating": "Performance Rating",
+    "first_contact_resolution": "First Contact Resolution",
+    "resolution_language": "Resolution Language",
+    "customer_acknowledgment": "Customer Acknowledgment",
+    "fcr_rate": "FCR Rate",
+    "resolution_confidence": "Resolution Confidence",
+    "effort_indicators": "Effort Indicators",
+    "effort_score": "Effort Score",
+    "ease_of_interaction": "Ease of Interaction",
+    "friction_indicators": "Friction Indicators",
+    "inappropriate_interruptions": "Inappropriate Interruptions",
+    "awkward_silences": "Awkward Silences",
+    "turn_taking_quality": "Turn-taking Quality",
+    "flow_disruptions": "Flow Disruptions",
+    "flow_quality_score": "Flow Quality Score",
+    "uncertainty_indicators": "Uncertainty Indicators",
+    "expertise_demonstrated": "Expertise Demonstrated",
+    "personal_references": "Personal References",
+    "history_referenced": "History Referenced",
+    "personalization_score": "Personalization Score",
+    "proactive_actions": "Proactive Actions",
+    "future_needs_addressed": "Future Needs Addressed",
+    "personalization_proactive_service": "Personalization & Proactive Service",
+    "call_wrap_up_quality": "Call Wrap-up Quality",
+    "clear_next_steps": "Clear Next Steps",
+    "confirmation_provided": "Confirmation Provided",
+    "contact_info_shared": "Contact Info Shared",
+    "wrap_up_quality": "Wrap-up Quality",
+    "behavioral_compliance": "Behavioral Compliance",
+    "professional_tone": "Professional Tone",
+    "active_listening": "Active Listening",
+    "patience_demonstrated": "Patience Demonstrated",
+    "compliance_score": "Compliance Score",
+    "sample_empathy_phrases": "Sample Empathy Phrases"
+  },
+  "sections": {
+    "serviceQuality": "Service Quality Metrics",
+    "resolutionAnalysis": "Resolution Analysis",
+    "emotionalIntelligence": "Emotional Intelligence",
+    "processEfficiency": "Process Efficiency"
+  },
+  "metrics": {
+    "satisfactionScore": "Satisfaction Score",
+    "resolutionRate": "Resolution Rate", 
+    "averageHandleTime": "Average Handle Time",
+    "escalationRate": "Escalation Rate",
+    "repeatContactRate": "Repeat Contact Rate",
+    "knowledgeAccuracy": "Knowledge Accuracy",
+    "empathyDetection": "Empathy Detection",
+    "effortReduction": "Effort Reduction"
+  }
+}

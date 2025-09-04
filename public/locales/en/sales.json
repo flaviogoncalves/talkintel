@@ -1,0 +1,81 @@
+{
+  "title": "Sales Performance Dashboard",
+  "subtitle": "Advanced sales metrics focusing on conversation dynamics, methodology adherence, and revenue generation",
+  "kpis": {
+    "talkToListenRatio": {
+      "title": "Talk-to-Listen Ratio",
+      "subtitle": "Target: 40-45% agent talk time",
+      "description": "Optimal balance between agent and customer speaking time"
+    },
+    "discoveryQuestions": {
+      "title": "Discovery Questions/Hour", 
+      "subtitle": "Elite performers: 18+ questions/hour",
+      "description": "Number of qualifying questions asked per hour"
+    },
+    "customerMonologue": {
+      "title": "Customer Monologue",
+      "subtitle": "Target: 45-90 seconds (engagement)",
+      "description": "Longest uninterrupted customer speaking time"
+    },
+    "conversationSwitches": {
+      "title": "Conversation Switches",
+      "subtitle": "Higher = more interactive dialogue", 
+      "description": "Frequency of speaker transitions"
+    },
+    "sentimentProgression": {
+      "title": "Sentiment Progression",
+      "subtitle": "Target: 70% positive shift",
+      "description": "Customer sentiment improvement during call"
+    },
+    "valuePropositions": {
+      "title": "Value Propositions/10min",
+      "subtitle": "Target: 3-4 connections per 10 minutes",
+      "description": "Rate of value proposition articulation"
+    },
+    "competitiveHandling": {
+      "title": "Competitive Handling", 
+      "subtitle": "Target: 90% acknowledgment",
+      "description": "Proper response to competitive mentions"
+    },
+    "accountKnowledge": {
+      "title": "Account Knowledge",
+      "subtitle": "85% should demonstrate preparation",
+      "description": "Evidence of account research and preparation"
+    }
+  },
+  "sections": {
+    "revenuePerformance": "Revenue Performance",
+    "conversationQuality": "Conversation Quality Analysis",
+    "talkListenBalance": "Talk-to-Listen Balance", 
+    "engagementQuality": "Engagement Quality",
+    "salesMethodology": "Sales Methodology Best Practices",
+    "conversationDynamics": "Conversation Dynamics",
+    "salesExcellence": "Sales Excellence"
+  },
+  "metrics": {
+    "averageDealValue": "Average Deal Value",
+    "conversionRate": "Conversion Rate",
+    "methodologyAdherence": "Methodology Adherence",
+    "perSuccessfulConversion": "Per successful conversion",
+    "qualifiedLeadsToSales": "Qualified leads to sales", 
+    "spinMeddicCoverage": "SPIN/MEDDIC coverage",
+    "agentTalkTime": "Agent Talk Time",
+    "customerTalkTime": "Customer Talk Time",
+    "balanceStatus": "Balance Status",
+    "optimal": "Optimal",
+    "good": "Good", 
+    "needsImprovement": "Needs Improvement",
+    "eliteLevel": "Elite Level",
+    "suboptimal": "Suboptimal",
+    "dynamic": "Dynamic",
+    "static": "Static"
+  },
+  "bestPractices": {
+    "optimalTalkToListen": "Optimal talk-to-listen ratio (40-45%)",
+    "eliteDiscoveryRate": "Elite discovery question rate (18+/hour)", 
+    "customerEngagementDepth": "Customer engagement depth (45-90s stories)",
+    "positiveSentimentProgression": "Positive sentiment progression (70%+ target)",
+    "valuePropositionArticulation": "Value proposition articulation (3-4/10min)",
+    "competitiveHandlingExcellence": "Competitive handling excellence (90%+ target)"
+  }
+}

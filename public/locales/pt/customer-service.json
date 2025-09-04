@@ -1,0 +1,62 @@
+{
+  "title": "Dashboard de Atendimento ao Cliente", 
+  "subtitle": "Métricas avançadas de atendimento focando em satisfação, qualidade de resolução e experiência do cliente",
+  "kpis": {
+    "customerSentiment": {
+      "title": "Pontuação de Sentimento do Cliente",
+      "subtitle": "Prediz CSAT com 85-95% de precisão",
+      "description": "Análise de sentimento em tempo real durante conversas"
+    },
+    "agentEmpathy": {
+      "title": "Pontuação de Empatia do Agente",
+      "subtitle": "15-20% melhor CSAT para agentes com alta empatia", 
+      "description": "Detecção de marcadores de empatia e reconhecimento emocional"
+    },
+    "firstContactResolution": {
+      "title": "Resolução no Primeiro Contato",
+      "subtitle": "Detecção baseada em linguagem",
+      "description": "Resolução prevista sem dados de sistema externo"
+    },
+    "customerEffort": {
+      "title": "Pontuação de Esforço do Cliente",
+      "subtitle": "Detecção de fricção através de linguística",
+      "description": "Detecção de indicadores de esforço na linguagem do cliente"
+    },
+    "conversationFlow": {
+      "title": "Qualidade do Fluxo de Conversa", 
+      "subtitle": "Alternância, interrupções, silêncios",
+      "description": "Medição de progressão natural do diálogo"
+    },
+    "emotionalJourney": {
+      "title": "Mapeamento da Jornada Emocional",
+      "subtitle": "Mudanças de sentimento durante a chamada",
+      "description": "Rastreamento da trajetória emocional durante interações"
+    },
+    "agentKnowledge": {
+      "title": "Avaliação de Conhecimento do Agente",
+      "subtitle": "<10% indicadores de incerteza",
+      "description": "Confiança e precisão nas respostas"
+    },
+    "callWrapUp": {
+      "title": "Qualidade do Encerramento da Chamada",
+      "subtitle": "85% devem incluir próximos passos claros", 
+      "description": "Qualidade da conclusão da chamada e acompanhamento"
+    }
+  },
+  "sections": {
+    "serviceQuality": "Métricas de Qualidade do Serviço",
+    "resolutionAnalysis": "Análise de Resolução",
+    "emotionalIntelligence": "Inteligência Emocional",
+    "processEfficiency": "Eficiência do Processo"
+  },
+  "metrics": {
+    "satisfactionScore": "Pontuação de Satisfação",
+    "resolutionRate": "Taxa de Resolução", 
+    "averageHandleTime": "Tempo Médio de Atendimento",
+    "escalationRate": "Taxa de Escalonamento",
+    "repeatContactRate": "Taxa de Contato Repetido",
+    "knowledgeAccuracy": "Precisão do Conhecimento",
+    "empathyDetection": "Detecção de Empatia",
+    "effortReduction": "Redução de Esforço"
+  }
+}

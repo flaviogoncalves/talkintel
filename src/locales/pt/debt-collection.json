@@ -1,0 +1,77 @@
+{
+  "title": "Performance de Cobrança",
+  "subtitle": "Métricas especializadas para operações de cobrança focando em conformidade, taxas de recuperação e atendimento ao cliente",
+  "kpis": {
+    "promiseToPayRate": {
+      "title": "Taxa de Promessa de Pagamento",
+      "subtitle": "Meta: 15-25% (Média da indústria: 10-12%)",
+      "description": "Percentual de chamadas que resultam em compromissos de pagamento"
+    },
+    "complianceRate": {
+      "title": "Taxa de Conformidade", 
+      "subtitle": "Deve ser 100% (Requisito FDCPA)",
+      "description": "Aderência ao Fair Debt Collection Practices Act"
+    },
+    "paymentDiscussionRate": {
+      "title": "Taxa de Discussão de Pagamento",
+      "subtitle": "Meta: 80%+ em chamadas apropriadas",
+      "description": "Percentual de chamadas onde pagamento é discutido"
+    },
+    "rightPartyContact": {
+      "title": "Contato com Parte Correta",
+      "subtitle": "Deve aproximar-se de 100% para conformidade", 
+      "description": "Contato verificado com o devedor correto"
+    },
+    "objectionHandling": {
+      "title": "Tratamento de Objeções",
+      "subtitle": "Performers de elite: 60% taxa de sucesso",
+      "description": "Eficácia em abordar objeções do cliente"
+    },
+    "empathyScore": {
+      "title": "Pontuação de Empatia", 
+      "subtitle": "Correlaciona com 15-25% melhor performance",
+      "description": "Classificação de empatia e tom profissional do agente"
+    },
+    "fdcpaViolations": {
+      "title": "Violações FDCPA",
+      "subtitle": "$1.000 de multa por violação",
+      "description": "Número de violações de conformidade detectadas"
+    },
+    "customerHardship": {
+      "title": "Taxa de Dificuldade do Cliente",
+      "subtitle": "Requer rastreamento de acomodações", 
+      "description": "Percentual de chamadas envolvendo dificuldades financeiras"
+    }
+  },
+  "sections": {
+    "performanceSummary": "Resumo de Performance de Cobrança",
+    "collectionEfficiency": "Eficiência de Cobrança",
+    "complianceStatus": "Status de Conformidade", 
+    "customerRelations": "Relações com Cliente",
+    "bestPractices": "Melhores Práticas de Cobrança"
+  },
+  "performance": {
+    "totalCalls": "Total de Chamadas",
+    "avgRecoveryAmount": "Valor Médio de Recuperação",
+    "successRate": "Taxa de Sucesso",
+    "aboveTarget": "Acima da Meta",
+    "belowTarget": "Abaixo da Meta",
+    "violationCount": "Contagem de Violações",
+    "status": "Status",
+    "compliant": "Conforme",
+    "atRisk": "Em Risco",
+    "hardshipRecognition": "Reconhecimento de Dificuldade",
+    "eliteLevel": "Nível Elite",
+    "needsImprovement": "Precisa Melhorar"
+  },
+  "compliance": {
+    "regulatoryCompliance": "Conformidade Regulatória",
+    "miniMiranda": "Divulgação Mini-Miranda (100% obrigatório)",
+    "rightPartyVerification": "Verificação da parte correta",
+    "noProhibitedLanguage": "Sem violações de linguagem proibida",
+    "performanceExcellence": "Excelência em Performance",
+    "promiseToPayAboveAverage": "Promessa de pagamento acima da média da indústria", 
+    "paymentDiscussionAppropriate": "Discussão de pagamento em chamadas apropriadas",
+    "highEmpathyScores": "Pontuações altas de empatia para melhores resultados"
+  }
+}

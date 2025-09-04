@@ -1,0 +1,50 @@
+{
+  "title": "Dashboard",
+  "subtitle": "Análises de contact center em tempo real e insights de performance",
+  "metrics": {
+    "totalCalls": "Total de Chamadas",
+    "averageSatisfaction": "Satisfação Média",
+    "sentimentRecoveryRate": "Taxa de Recuperação",
+    "resolutionRate": "Taxa de Resolução",
+    "averageCallDuration": "Duração Média das Chamadas",
+    "humanAgents": "Agentes Humanos",
+    "aiAgents": "Agentes IA",
+    "callsToday": "Chamadas Hoje",
+    "callsThisWeek": "Chamadas Esta Semana"
+  },
+  "sections": {
+    "overview": "Visão Geral",
+    "agentPerformance": "Performance dos Agentes", 
+    "callAnalysis": "Análise de Chamadas",
+    "topTopics": "Principais Tópicos",
+    "sentimentAnalysis": "Análise de Sentimento",
+    "trendingTopics": "Tópicos em Tendência"
+  },
+  "charts": {
+    "sentimentDistribution": "Distribuição de Sentimento",
+    "positive": "Positivo",
+    "neutral": "Neutro", 
+    "negative": "Negativo",
+    "recovery": "Recuperação",
+    "wordCloud": "Nuvem de Palavras",
+    "topicTrends": "Tendências dos Tópicos"
+  },
+  "filters": {
+    "dateRange": "Período",
+    "campaign": "Campanha",
+    "agent": "Agente",
+    "all": "Todos"
+  },
+  "callAnalysis": {
+    "callId": "ID da Chamada",
+    "timestamp": "Data/Hora",
+    "agent": "Agente",
+    "customer": "Cliente",
+    "duration": "Duração",
+    "satisfaction": "Satisfação",
+    "sentiment": "Sentimento",
+    "resolved": "Resolvido",
+    "topics": "Tópicos",
+    "summary": "Resumo"
+  }
+}
